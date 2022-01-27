@@ -20,7 +20,7 @@ body{
 }
 
 .component-slip{
-    background-image: url("./img/retangulo.jpg");
+    background-image: url("modal-gr/img/retangulo.jpg");
     object-fit: contain;
     background-repeat: no-repeat;
 }
