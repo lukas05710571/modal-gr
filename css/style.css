@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    
+    box-sizing: border-box;
+    
+}
+
+.bg-primari{
+    background-color: #171166 ;
+}
+
+.bonder-slide{
+    
+    border-bottom: 2px solid #ffff;
+}
+
+.component-slip{
+    background-image: url("/img/retangulo.png");
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+.modalcolor{
+    color: #322EE5;
+}
+
+.gr-color{
+    color: #D77604;
+}
+.destaque{
+    display: block;
+    visibility: visible;
+}
+.container-destaque{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: auto;
+}
+@media (min-width:300px) and (max-width:1200px) {
+    .destaque{
+        display: none !important;
+        visibility: hidden !important;
+        width: 0%;
+    }
+    
+   
+}
